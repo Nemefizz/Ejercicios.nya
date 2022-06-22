@@ -50,4 +50,8 @@ def buscar(Matriz):
             print("Producto sin stock")
     else:
         print("Producto no encontrado")
+    def imprimir(Matriz):
+        filas,columnas = matriz.shape
+        for f in range(filas):
+            print(f"{matriz[f][0]}  {matriz[f][1]}     {matriz[f][2]}")
 
