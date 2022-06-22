@@ -10,11 +10,11 @@ sum=0
 for i in range(0,len(B)):
     if B[i] % 2 != 0:
         sum=sum+B[i]
-mul=0
+acum=0
 print(f"La suma de elementos impares es: {sum}")
 for i in range(0,len(B)):
     if B[i] % 2 != 0:
-        mul=B[i]*B[i]*B[i]
-
+        acum=acum+b[i]
+acumulador=acumulador*b[i]
 print(f"La multiplicacion de elementos impares es: {mul}")
 
