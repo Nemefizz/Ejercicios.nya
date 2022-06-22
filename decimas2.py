@@ -15,6 +15,6 @@ print(f"La suma de elementos impares es: {sum}")
 for i in range(0,len(B)):
     if B[i] % 2 != 0:
         acum=acum+b[i]
-acumulador=acumulador*b[i]
-print(f"La multiplicacion de elementos impares es: {mul}")
+acum=acum*b[i]
+print(f"La multiplicacion de elementos impares es: {acum}")
 
